@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="footer-top">
           <div className="footer-col">
             <h3 className="footer-title">Contacto</h3>
-            <p className="footer-text">¿Tienes un proyecto en mente? Hablemos.</p>
+            <p className="footer-text">¿Tienes un proyecto en mente? Hablemos</p>
             <a href="mailto:jdjjz19@gmail.com" className="email-link">jdjjz19@gmail.com</a>
           </div>
           <div className="footer-col">
