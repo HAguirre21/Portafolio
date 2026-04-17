@@ -11,20 +11,19 @@ const Footer: React.FC = () => {
           <div className="footer-col">
             <h3 className="footer-title">Contacto</h3>
             <p className="footer-text">¿Tienes un proyecto en mente? Hablemos.</p>
-            <a href="mailto:hervin@example.com" className="email-link">hervin@example.com</a>
+            <a href="mailto:jdjjz19@gmail.com" className="email-link">jdjjz19@gmail.com</a>
           </div>
           <div className="footer-col">
             <h3 className="footer-title">Redes</h3>
             <div className="social-links">
-              <a href="#">LinkedIn</a>
-              <a href="#">GitHub</a>
-              <a href="#">X</a>
+              <a href="https://www.linkedin.com/in/hervin-hinojosa-aguirre-a30b9a25b/">LinkedIn</a>
+              <a href="https://github.com/HAguirre21">GitHub</a>
+              <a href="https://www.instagram.com/h.aguirre1/">Instagram</a>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
           <p>&copy; {currentYear} Hervin Hinojosa Aguirre. Todos los derechos reservados.</p>
-          <p className="made-with">Hecho con React & Puro CSS</p>
         </div>
       </div>
     </footer>
