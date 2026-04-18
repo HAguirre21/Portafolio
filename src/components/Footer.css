@@ -19,10 +19,12 @@
 }
 
 .footer-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: var(--accent-3);
+  color: var(--accent-1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .footer-text {
@@ -32,12 +34,13 @@
 }
 
 .email-link {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--accent-1);
+}
+
+.email-link:hover {
+  color: var(--accent-2);
 }
 
 .social-links {

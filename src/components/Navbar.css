@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(13, 0, 26, 0.7);
+  background-color: rgba(12, 13, 16, 0.8);
   backdrop-filter: blur(15px);
   border-bottom: 1px solid var(--border-color);
   padding: 1.2rem 0;
@@ -23,10 +23,7 @@
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: -1px;
-  background: linear-gradient(45deg, var(--accent-1), var(--accent-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--accent-1);
 }
 
 .nav-links {
@@ -47,8 +44,8 @@
   bottom: -5px;
   left: 0;
   width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+  height: 1px;
+  background: var(--accent-1);
   transition: var(--transition);
 }
 
